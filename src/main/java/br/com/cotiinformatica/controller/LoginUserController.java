@@ -7,11 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class LoginUserController {
 
-	@RequestMapping(value="/login_user")
+	@RequestMapping(value="/")
 
 	public ModelAndView loginUser() {
 
-		ModelAndView modelAndView = new ModelAndView("login_user");
+		ModelAndView modelAndView = new ModelAndView("login-user");
 
 		return modelAndView;
 

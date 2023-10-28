@@ -1,0 +1,71 @@
+# Arquivos e diretórios específicos do Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Diretórios de saída do Eclipse
+bin/
+bin-debug/
+
+# Arquivos de configuração do Eclipse
+*.launch
+*.suo
+*.key
+*.prefs
+*.releaseStaging
+*.svn
+
+# Arquivos de compilação
+*.class
+*.war
+*.ear
+*.jar
+
+# Diretórios de saída do Maven
+target/
+out/
+
+# Arquivos de compilação do Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+
+# Arquivos de configuração do Spring Boot
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+application-test.properties
+
+# Arquivos de configuração específicos do PostgreSQL
+application-postgres.properties
+application-postgres.yml
+
+# Arquivos de log
+log/
+*.log
+
+# Arquivos de configuração específicos do banco de dados
+*.sqlite
+*.sql
+*.csv
+
+# Outros arquivos temporários
+*~
+*.swp
+*.tmp
+
+# Dependências Maven (arquivos JAR baixados)
+/lib/
+/target/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do IDE
+/.idea/
+*.iml
+*.ipr
+*.iws

@@ -7,9 +7,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class RegisterUserController {
 
-	@RequestMapping(value = "/register_user")
+	@RequestMapping(value = "/register-user")
 	public ModelAndView registerUser() {
-		ModelAndView modelAndView = new ModelAndView("register_user");
+		ModelAndView modelAndView = new ModelAndView("register-user");
 		return modelAndView;
 	}
 

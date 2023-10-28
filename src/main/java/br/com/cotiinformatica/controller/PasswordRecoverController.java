@@ -7,10 +7,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class PasswordRecoverController {
 
-	@RequestMapping (value = "/password_recover")
+	@RequestMapping (value = "/password-recover")
 
 	public ModelAndView passwordRecover() {
-		ModelAndView modelAndView = new ModelAndView("password_recover");
+		ModelAndView modelAndView = new ModelAndView("password-recover");
 		return modelAndView;
 	}
 
